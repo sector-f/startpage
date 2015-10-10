@@ -14,16 +14,16 @@ body {
 
 header {
 	font-size:24px;
-	text-align:center;
-	vertical-align:middle;
-	height:33%;
-	padding-top:2em;
-	box-sizing:border-box;
-	/* position:absolute; */
-	width:100%;
 }
 
-#first-container {
+#header-container {
+	display:flex;
+	justify-content:center;
+	height:33%;
+	align-items:center;
+}
+
+#content-container {
 	height:66%;
 	display:flex;
 	justify-content:center;
@@ -50,7 +50,7 @@ p {
 	margin:0;
 }
 
-.flex-item > p:first-of-type {
+.column-heading {
 	margin-bottom:0.2em;
 	padding-bottom:0.1em;
 	border-bottom:1px solid #82bb43;
