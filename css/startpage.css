@@ -8,7 +8,6 @@ body, html {
 body {
 	background-color:#141314;
 	font-family:"Source Code Pro","DejaVu Sans Mono","Liberation Sans Mono",mono;
-	font-weight:lighter;
 	/* font-size:20px; */
 	color:#82bb43;
 }
@@ -60,7 +59,6 @@ header {
 	justify-content:center;
 	align-content:center;
 	align-items:stretch;
-	/* border:2px solid #82bb43; */
 }
 
 /* .flex-container:hover { */
