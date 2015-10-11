@@ -1,2 +1,2 @@
-![Screenshot](https://u.teknik.io/1ZwFpQ.png)
-Relies heavily on [Flexbox](http://caniuse.com/#feat=flexbox); don't expect it to work on old browsers
+![Screenshot](http://u.teknik.io/GapwCx.png)
+I felt like making a start page, so I made a start page. It relies heavily on [flexboxes](http://caniuse.com/#feat=flexbox), so don't expect it to work on old browsers. It does work surprisingly well in `links`, though.
