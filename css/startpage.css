@@ -8,6 +8,7 @@ body, html {
 body {
 	background-color:#141314;
 	font-family:"Source Code Pro","DejaVu Sans Mono","Liberation Sans Mono",mono;
+	font-weight:lighter;
 	/* font-size:20px; */
 	color:#82bb43;
 }
@@ -30,6 +31,8 @@ header {
 	justify-content:center;
 	margin-top:2em;
 	margin-bottom:2em;
+	border:1px solid #82BB43;
+	padding:3px;
 }
 
 #searchbar,input {
@@ -46,7 +49,7 @@ header {
 }
 
 #sitelist {
-	border:2px solid #82bb43;
+	border:1px solid #82bb43;
 	flex-direction:row;
 }
 
@@ -112,6 +115,6 @@ input {
 	color:#82bb43;
 	background-color:inherit;
 	border:0;
-	border-bottom:1px solid #82bb43;
+	/* border-bottom:1px solid #82bb43; */
 	font-family:inherit;
 }
