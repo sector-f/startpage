@@ -10,15 +10,11 @@
 		</div>
 		<div id="content-container">
 			<div class="flex-container">
-			<div id="searchbar-container">
-			$<div id="searchbar" class="form-container">
-            <form method="get" action="https://www.google.com/search">
-              <div class="form-group">
-				<input type="text" name="q" autofocus>
-              </div>
-            </form>
-          </div>
-			</div>
+				<div id="searchbar-container">
+					$<div id="searchbar" class="form-container">
+						<input id="search box" class="searchbox" type="text" name="q" placeholder="Enter URL or search term" onkeypress="searchKeyPress(event)" autofocus></input>
+					</div>
+				</div>
 			<div class="flex-container" id="sitelist">
 				<div class="flex-item">
 					<div class="column-heading">reddit</div>
@@ -52,5 +48,6 @@
 			</div>
 			</div>
 		</div>
+		<script src="script.js" type="text/javascript"></script>
 	</body>
 </html>
