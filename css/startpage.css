@@ -8,12 +8,13 @@ body, html {
 body {
 	background-color:#141314;
 	font-family:"Source Code Pro","DejaVu Sans Mono","Liberation Sans Mono",mono;
-	/* font-size:20px; */
+	font-size:24px;
+	/* font-weight:600; */
 	color:#82bb43;
 }
 
 header {
-	font-size:24px;
+	font-size:34px;
 }
 
 #header-container {
@@ -116,4 +117,5 @@ input {
 	/* border-bottom:1px solid #82bb43; */
 	font-family:inherit;
 	font-weight:inherit;
+	font-size:inherit;
 }
