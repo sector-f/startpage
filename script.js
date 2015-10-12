@@ -24,11 +24,29 @@ function searchKeyPress(e) {
 }
 
 function parseCom(com) {
-	if (urlPattern.test(com)) {
+	if (com.startsWith("4c")==true) {
+		// go to given board
+		if (new RegExp("^4c .*$").test(com)) {
+			var sargs = com.split(" ");
+			nav("http://boards.4chan.org/" + sargs.pop());
+		}
+		// if just "4c" then go to 4chan.org
+		else if (new RegExp("^4c$").test(com)) {
+			nav("http://4chan.org");
+		}
+		else {
+			search();
+		}
+	}
+	else if (new RegExp("^gmail$").test(com)) {
+		nav("http://mail.google.com");
+	}
+	// if it's a url, go to it
+	else if (urlPattern.test(com)) {
 		nav(com);
 	}
+	// for everything else, do a google search
 	else {
 		search();
 	}
 }
-
